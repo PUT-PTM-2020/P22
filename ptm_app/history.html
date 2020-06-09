@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="jquery.js"></script>
+  <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="container-fluid">
+    <div class="row justify-content-center">
+      <h1 id="header-main" class="display-4">Projekt PTM - Fotopułapka</h1>
+    </div>
+    <div id="history-header" class="row justify-content-center mt-3">
+      <h1 id="header-incident" class="display-5">Historia zdarzeń</h1>
+    </div>
+      <div class="col-md-12">
+        <div id="nav-container" class="row justify-content-center">
+          <button id="refresh-history-button" class="nav-btn btn btn-primary mr-1" onclick="location.reload();">ODŚWIEŻ</button>
+        </div>
+      </div>
+        <div id="table-container" class="col-md-12 mt-5">
+          <table id="history-table" class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Identyfikator</th>
+                <th>Data</th>
+                <th>Godzina</th>
+                <th>Fotografia</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-12 mt-2">
+            <a href="index.html"><button class="nav-btn btn btn-primary mr-1 btn-sm d-flex justify-content-end">POWRÓT</button></a>
+        </div>
+  </div>
+</body>
+</html>
